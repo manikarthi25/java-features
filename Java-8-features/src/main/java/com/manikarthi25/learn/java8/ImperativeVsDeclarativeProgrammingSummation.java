@@ -2,7 +2,7 @@ package com.manikarthi25.learn.java8;
 
 import java.util.stream.IntStream;
 
-public class ImperativeVsDeclarativeProgramming {
+public class ImperativeVsDeclarativeProgrammingSummation {
 
 	public static void main(String a[]) {
 		/**
