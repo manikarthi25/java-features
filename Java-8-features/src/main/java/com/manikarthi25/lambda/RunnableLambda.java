@@ -1,6 +1,6 @@
-package com.manikarthi25.learn.java8;
+package com.manikarthi25.lambda;
 
-public class LambdaWithRunnable {
+public class RunnableLambda {
 
 	public static void main(String a[]) {
 
