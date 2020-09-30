@@ -1,4 +1,4 @@
-package com.manikarthi25.consumer;
+package com.manikarthi25.functioninterface;
 
 import java.util.List;
 import java.util.function.BiConsumer;
