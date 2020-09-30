@@ -58,6 +58,10 @@ public class Student {
 	public void setActivities(List<String> activities) {
 		this.activities = activities;
 	}
+	
+	public void printListOfActivities() {
+		System.out.println(activities);
+	}
 
 	@Override
 	public String toString() {
