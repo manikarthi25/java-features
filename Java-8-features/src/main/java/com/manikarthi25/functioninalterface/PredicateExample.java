@@ -1,4 +1,4 @@
-package com.manikarthi25.functioninterface;
+package com.manikarthi25.functioninalterface;
 
 import java.util.function.Predicate;
 
