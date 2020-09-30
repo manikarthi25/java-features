@@ -2,8 +2,13 @@ package com.manikarthi25.data;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.function.Supplier;
 
 public class StudentDataBase {
+
+	public static Supplier<Student> studentSupplier = () -> {
+		return new Student("mani", "male", 2, 9.9, Arrays.asList("Swimming", "Cricket"));
+	};
 
 	public static List<Student> getStudentDetails() {
 
