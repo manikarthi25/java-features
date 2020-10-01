@@ -24,8 +24,9 @@ public class StreamExample {
 		Predicate<Student> predicateGpa = (student) -> student.getGpa() >= 6;
 
 		Map<String, List<String>> studentMapWithPredicate = StudentDataBase.getStudentDetails().stream()
-				.filter(predicateGradeLevel).filter(predicateGpa)
-				.collect(Collectors.toMap(Student::getName, Student::getActivities));
+				.filter(predicateGradeLevel)//Stream<Student>
+				.filter(predicateGpa)//Stream<Student>
+				.collect(Collectors.toMap(Student::getName, Student::getActivities));//Map - Without collect initialization, wont start any operation in filter  
 
 		System.out.println("With Predicate : " + studentMapWithPredicate);
 
