@@ -2,12 +2,18 @@ package com.manikarthi25.data;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.Supplier;
 
 public class StudentDataBase {
 
 	public static Supplier<Student> studentSupplier = () -> {
-		return new Student("mani", "male", 2, 9.9, Arrays.asList("Swimming", "Cricket"));
+		Bike bike = new Bike();
+		bike.setBikeName("Trigger");
+		bike.setBikeModel("Honda");
+		Student student = new Student("mani", "male", 2, 9.9, Arrays.asList("Swimming", "Cricket"));
+		student.setBike(Optional.ofNullable(bike));
+		return student;
 	};
 
 	public static List<Student> getStudentDetails() {

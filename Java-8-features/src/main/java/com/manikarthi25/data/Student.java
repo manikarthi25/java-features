@@ -1,6 +1,8 @@
 package com.manikarthi25.data;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class Student {
 
@@ -8,8 +10,9 @@ public class Student {
 	private String gender;
 	private int gradeLevel;
 	private double gpa;
-	List<String> activities;
+	private List<String> activities = new ArrayList<>();
 	private int noteBooks;
+	private Optional<Bike> bike = Optional.empty();
 
 	public Student(String name, String gender, int gradeLevel, double gpa, List<String> activities) {
 		super();
@@ -89,11 +92,19 @@ public class Student {
 	public void printListOfActivities() {
 		System.out.println(activities);
 	}
+	
+	public Optional<Bike> getBike() {
+		return bike;
+	}
+
+	public void setBike(Optional<Bike> bike) {
+		this.bike = bike;
+	}
 
 	@Override
 	public String toString() {
-		return "Student {" + "name=" + name + ", gender=" + gender + ", gradeLevel=" + gradeLevel + ", gpa=" + gpa
-				+ ", activities=" + activities + "}";
+		return "Student [name=" + name + ", gender=" + gender + ", gradeLevel=" + gradeLevel + ", gpa=" + gpa
+				+ ", activities=" + activities + ", noteBooks=" + noteBooks + ", bike=" + bike + "]";
 	}
 
 }
