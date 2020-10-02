@@ -27,8 +27,8 @@ public class ParallelStreamVsSequentialStreamExample {
 	public static void main(String[] args) {
 		
 		System.out.println("Available Processor in this system : " + Runtime.getRuntime().availableProcessors());
-		System.out.println("Sequential : " + comparePerformace(ParallelStreamVsSequentialStreamExample::sumSequentialStream, 20));
-		System.out.println("Parallel : " + comparePerformace(ParallelStreamVsSequentialStreamExample::sumParallelStream, 20));
+		System.out.println("Sequential : " + comparePerformace(ParallelStreamVsSequentialStreamExample::sumSequentialStream, 20) + "ms");
+		System.out.println("Parallel : " + comparePerformace(ParallelStreamVsSequentialStreamExample::sumParallelStream, 20) + "ms");
 
 	}
 
