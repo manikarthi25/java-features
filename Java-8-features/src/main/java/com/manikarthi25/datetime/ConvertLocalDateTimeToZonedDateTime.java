@@ -17,8 +17,8 @@ public class ConvertLocalDateTimeToZonedDateTime {
 		
 		ZonedDateTime zonedDateTimeimeLocal = localDateTimeWithoutZone.atZone(ZoneId.of("America/Chicago"));
 		System.out.println("localDateTime with zone      :" + zonedDateTimeimeLocal);
-		Instant inatant  = Instant.now();
 		
+		Instant inatant  = Instant.now();		
 		ZonedDateTime zonedDateTimeimeInstant = inatant.atZone(ZoneId.of("America/Chicago"));
 		System.out.println("Instant with zone            :" + zonedDateTimeimeInstant);
 		
