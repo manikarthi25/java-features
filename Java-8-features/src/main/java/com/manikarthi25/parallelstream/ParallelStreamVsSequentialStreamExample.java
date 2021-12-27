@@ -9,17 +9,28 @@ public class ParallelStreamVsSequentialStreamExample {
 		long startTime = System.currentTimeMillis();
 		for(int i = 0; i <= noOfTimesCall; i++) {
 			supplier.get();
+			//System.out.println("supplier.get() : "+supplier.get());
 		}
-		long endTime = System.currentTimeMillis();
+		long endTime = System.currentTimeMillis(); 
 		return endTime - startTime;
 	}
 	
 	public static int sumSequentialStream() {
-		return IntStream.rangeClosed(1, 1000000).sum();	
+		long startTime = System.currentTimeMillis();
+		int sumSequentialStream = IntStream.rangeClosed(1, 1000000).sum();	
+		long endTime = System.currentTimeMillis(); 
+		System.out.println("sumSequentialStream Time:" +(endTime - startTime)) ;
+		System.out.println("sumSequentialStream :" +sumSequentialStream) ;
+		return sumSequentialStream;
 	}
 	
 	public static int sumParallelStream() {
-		return IntStream.rangeClosed(1, 1000000).parallel().sum();	
+		long startTime = System.currentTimeMillis();
+		int sumParallelStream = IntStream.rangeClosed(1, 1000000).parallel().sum();	
+		long endTime = System.currentTimeMillis(); 
+		System.out.println("sumParallelStream Time:" +(endTime - startTime)) ;
+		System.out.println("sumParallelStream :" +sumParallelStream) ;
+		return sumParallelStream;
 	}
 	
 	

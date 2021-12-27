@@ -2,7 +2,7 @@ package com.manikarthi25.parallelstream;
 
 public class Sum {
 
-	private Integer total;
+	private Integer total = 0;
 
 	public Integer getTotal() {
 		return total;
