@@ -14,13 +14,13 @@ public class FormatingLocalTimeExample {
 		System.out.println("Convert Time from String to LocalTime : " + localTimeFromStrig);
 		
 		LocalTime localTimeISO_LOCAL_DATE = LocalTime.parse(timeInString, DateTimeFormatter.ISO_LOCAL_TIME);
-		System.out.println("Convert Time from String to LocalTime - ISO_LOCAL_DATE : " + localTimeISO_LOCAL_DATE);
+		System.out.println("Convert Time from String to LocalTime - ISO_LOCAL_TIME : " + localTimeISO_LOCAL_DATE);
 		
 		/**
 		 * Customized Time format conversion
 		 */
 		String customizedTimeInString = "13|10";
-		DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("HH|MM");
+		DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("HH|mm");
 		LocalTime localTimeCustomized = LocalTime.parse(customizedTimeInString, dateTimeFormatter);
 		System.out.println("Convert Time from String to LocalTime - Customized : " + localTimeCustomized);
 	}

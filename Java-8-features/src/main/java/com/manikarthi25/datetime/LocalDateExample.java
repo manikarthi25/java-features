@@ -11,7 +11,7 @@ public class LocalDateExample {
 	public static void main(String[] args) {
 
 		LocalDate localDate = LocalDate.now();
-		LocalDate localDate1 =LocalDate.of(2020, 10, 04);
+		LocalDate localDate1 =LocalDate.of(2020, 10,  04);
 
 		/**
 		 * Get local Date
@@ -42,7 +42,7 @@ public class LocalDateExample {
 		
 		// localDate : 2020-10-03
 		// localDate : 2020-10-04
-		System.out.println("isEqual : "+ localDate.isEqual(localDate1));
+		System.out.println("localDate :" + localDate + "\nlocalDate1 :" + localDate1 + " \nisEqual : "+ localDate.isEqual(localDate1));
 		System.out.println("isBefore : "+ localDate.isBefore(localDate1));
 		System.out.println("isAfter : "+ localDate.isAfter(localDate1));
 		System.out.println("isLeapYear : "+ localDate.isLeapYear());
