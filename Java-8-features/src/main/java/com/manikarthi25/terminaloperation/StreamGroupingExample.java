@@ -36,7 +36,15 @@ public class StreamGroupingExample {
 		Map<String, Integer> studentNotebookCount = StudentDataBase.getStudentDetails().stream()
 				.collect(Collectors.groupingBy(Student::getName, Collectors.summingInt(Student::getNoteBooks)));
 		System.out.println();
-		System.out.println("Grouping and summing :" + studentNotebookCount);
+		System.out.println("Grouping and summing based on note books:" + studentNotebookCount);
+
+	}
+	
+	public static void twoLevelGrouping_3() {
+		Map<String, Integer> studentCountBasedOnGender = StudentDataBase.getStudentDetails().stream()
+				.collect(Collectors.groupingBy(Student::getGender, Collectors.summingInt(Student::getNoteBooks)));
+		System.out.println();
+		System.out.println("Grouping and summing based on gender :" + studentCountBasedOnGender);
 
 	}
 
@@ -81,6 +89,7 @@ public class StreamGroupingExample {
 		customiziedGroupingStudent();
 		twoLevelGrouping_1();
 		twoLevelGrouping_2();
+		twoLevelGrouping_3();
 		threeArgumentGroupingBy();
 		findMaxGpaGroupingByGradeLevel();
 		findMinGpaGroupingByGradeLevel();
