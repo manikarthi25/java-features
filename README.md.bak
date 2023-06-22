@@ -1,6 +1,6 @@
-# java-features
+# java8-features
 
-# Java 18 Features
+#Java 18 Features
 Java 18 GA was released on 22 March 2022.
 It has nine new developer features, including a simple web server and another preview of pattern matching for switch.
 The below-listed 14 JEPs are part of Java 18.
@@ -14,7 +14,7 @@ The below-listed 14 JEPs are part of Java 18.
 8.	JEP-420: Pattern Matching for switch (Second Preview)
 9.	JEP-421: Deprecate Finalization for Removal
 
-# Java 17 Features (LTS)
+#Java 17 Features (LTS)
 Java 17 was released on September 14, 2021. Java 17 is an LTS (Long Term Support) release, like Java 11 and Java 8. Spring 6 and Spring boot 3 will have first-class support for Java 17. So it is a good idea to plan for upgrading to Java 17.
 The below-listed 14 JEPs are part of Java 17.
 1.	(JEP-306) Restore Always-Strict Floating-Point Semantics
@@ -32,7 +32,7 @@ The below-listed 14 JEPs are part of Java 17.
 13.	(JEP-414) Vector API (Second Incubator)
 14.	(JEP-415) Context-Specific Deserialization Filters
 
-# Java 16 Features
+#Java 16 Features
 Java 16 was released on 16 March 20121. It was largely a maintenance release, except it made the Java Records and Pattern matching the standard features of the Java language.
 1.	JEP 338: Vector API (Incubator)
 2.	JEP 347: Enable C++14 Language Features
@@ -52,7 +52,7 @@ Java 16 was released on 16 March 20121. It was largely a maintenance release, ex
 16.	JEP 396: Strongly Encapsulate JDK Internals by Default
 17.	JEP 397: Sealed Classes (Second Preview)
 
-# Java 15 Features
+#Java 15 Features
 Java 15 was released on 15th Sep’2020. It continues to support various preview features in previous JDK releases; and has also introduced some new features.
 1.	Sealed Classes and Interfaces (Preview) (JEP 360)
 2.	EdDSA Algorithm (JEP 339)
@@ -63,7 +63,7 @@ Java 15 was released on 15th Sep’2020. It continues to support various preview
 7.	Records (Second Preview) (JEP 384)
 8.	Text Blocks become a standard feature. (JEP 378)
 
-# Java 14 Features
+#Java 14 Features
 Java 14 (released on March 17, 2020) is the latest version available for JDK. Let’s see the new features and improvements, it brings for developers and architects.
 1.	JEP 305 – Pattern Matching for instanceof (Preview)
 2.	JEP 368 – Text Blocks (Second Preview)
@@ -78,7 +78,7 @@ Java 14 (released on March 17, 2020) is the latest version available for JDK. Le
 11.	JEP 367 – Remove the Pack200 Tools and API
 12.	JEP 370 – Foreign-Memory Access API (Incubator)
 
-# Java 13 Features
+#Java 13 Features
 Java 13 (released on September 17, 2019) had fewer developer-specific features. Let’s see the new features and improvements, it brought for developers and architects.
 1.	JEP 355 – Text Blocks (Preview)
 2.	JEP 354 – Switch Expressions Enhancements (Preview)
@@ -97,7 +97,7 @@ Java 12 was released on March 19, 2019. Let’s see the new features and improve
 5.	Support for Unicode 11
 6.	Switch Expressions (Preview)
 
-# Java 11 Features (LTS)
+#Java 11 Features (LTS)
 Java 11 (released on September 2018) includes many important and useful updates. Let’s see the new features and improvements, it brings for developers and architects.
 1.	HTTP Client API
 2.	Launch Single-File Programs Without Compilation
@@ -106,7 +106,7 @@ Java 11 (released on September 2018) includes many important and useful updates.
 5.	Files.readString() and Files.writeString()
 6.	Optional.isEmpty()
 
-# Java 10 Features
+#Java 10 Features
 After Java 9 release, Java 10 came very quickly. Unlike its previous release, Java 10 does not have that many exciting features, still, it has a few important updates which will change the way you code, and other future Java versions.
 1.	JEP 286: Local Variable Type Inference
 2.	JEP 322: Time-Based Release Versioning
@@ -123,7 +123,7 @@ After Java 9 release, Java 10 came very quickly. Unlike its previous release, Ja
 13.	New Added APIs and Options
 14.	Removed APIs and Options
 
-# Java 9 Features
+#Java 9 Features
 Java 9 was made available on September, 2017. The biggest change is the modularization i.e. Java modules.
 Some important features/changes in Java 9 are:
 1.	Java platform module system
@@ -141,7 +141,7 @@ Some important features/changes in Java 9 are:
 13.	Miscellaneous Other Features
 Please see the updated release info here.
 
-# Java 8 Features
+#Java 8 Features
 Release Date : March 18, 2014
 Code name culture is dropped. Included features were:
 1.	Lambda expression support in APIs
@@ -156,8 +156,7 @@ Code name culture is dropped. Included features were:
 10.	Statically-linked JNI libraries
 11.	Launch JavaFX applications from jar files
 12.	Remove the permanent generation from GC
-	
-# Java SE 7 Features
+Java SE 7 Features
 Release Date : July 28, 2011
 This release was called “Dolphin”. Included features were:
 1.	JVM support for dynamic languages
@@ -176,7 +175,7 @@ This release was called “Dolphin”. Included features were:
 14.	APIs for the graphics features
 15.	Support for new network protocols, including SCTP and Sockets Direct Protocol
 
-# Java SE 6 Features
+#Java SE 6 Features
 Release Date : December 11, 2006
 This release was called “Mustang”. Sun dropped the “.0” from the version number and the version became Java SE 6. Included features were:
 1.	Scripting Language Support
@@ -188,7 +187,7 @@ This release was called “Mustang”. Sun dropped the “.0” from the version
 7.	Pluggable annotations
 8.	New GC algorithms
 
-# J2SE 5 Features
+#J2SE 5 Features
 Release Date : September 30, 2004
 This release was called “Tiger”. Most of the features, which are asked in java interviews, were added in this release.
 The version was also called 5.0 rather than 1.5. Included features are listed down below:
@@ -202,7 +201,7 @@ The version was also called 5.0 rather than 1.5. Included features are listed do
 8.	New concurrency utilities in java.util.concurrent
 9.	Scanner class for parsing data from various input streams and buffers.
 
-# J2SE 1.4 Features
+#J2SE 1.4 Features
 Release Date : February 6, 2002
 This release was called “Merlin”. Included features were:
 1.	assert keyword
@@ -217,7 +216,7 @@ This release was called “Merlin”. Included features were:
 10.	Java Web Start
 11.	Preferences API (java.util.prefs)
 
-# J2SE 1.3 Features
+#J2SE 1.3 Features
 Release Date : May 8, 2000
 This release was called “Kestrel”. Included features were:
 1.	HotSpot JVM
@@ -226,7 +225,7 @@ This release was called “Kestrel”. Included features were:
 4.	JavaSound
 5.	Synthetic proxy classes
 
-# J2SE 1.2 Features
+#J2SE 1.2 Features
 Release Date : December 8, 1998
 This release was called “Playground”. This was a major release in terms of the number of classes added (almost tripled the size). “J2SE” term was introduced to distinguish the code platform from J2EE and J2ME. Included features were:
 1.	strictfp keyword
@@ -235,7 +234,7 @@ This release was called “Playground”. This was a major release in terms of t
 4.	Java plug-in
 5.	Collections framework
 
-# JDK 1 Features
+#JDK 1 Features
 Release Date : January 23, 1996
 This was the initial release and was originally called Oak. This had very unstable APIs and one java web browser named WebRunner.
 The first stable version, JDK 1.0.2, was called Java 1.
