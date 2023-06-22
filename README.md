@@ -13,6 +13,14 @@ The below-listed 14 JEPs are part of Java 18.
 	7.JEP-419: Foreign Function & Memory API (Second Incubator)
 	8.JEP-420: Pattern Matching for switch (Second Preview)
 	9.JEP-421: Deprecate Finalization for Removal
+1. Item 1
+2. Item 2
+3. Item 3
+   * Sub item 1
+   * Sub item 3
+* Unordered item
+* Unordered item
+* Unordered item
 
 # Java 17 Features (LTS)
 Java 17 was released on September 14, 2021. Java 17 is an LTS (Long Term Support) release, like Java 11 and Java 8. Spring 6 and Spring boot 3 will have first-class support for Java 17. So it is a good idea to plan for upgrading to Java 17.
