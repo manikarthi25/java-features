@@ -1,7 +1,9 @@
 package com.manikarthi25.stream;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import com.manikarthi25.data.Student;
 import com.manikarthi25.data.StudentDataBase;
@@ -56,6 +58,34 @@ public class StreamFlatMapExample {
 		System.out.println("With Distinct and Sorted = " + getStudentActivitiesDistinctSort());
 		System.out.println("With Distinct and Count = " + getStudentActivitiesCount());
 		
+		List<Integer> listOfIntegers = Stream.of("1", "2", "3", "4")
+	               .map(Integer::valueOf)
+	               .collect(Collectors.toList());
+		System.out.println("map : " +listOfIntegers);
+		
+		//The Stream.map() function performs map functional operation i.e. it takes a Stream and transforms it to another Stream.
+
+
+		List<Integer> evens = Arrays.asList(2, 4, 6);
+		List<Integer> odds = Arrays.asList(3, 5, 7); 
+		List<Integer> primes = Arrays.asList(2, 3, 5, 7, 11); 
+		
+		List<Integer> numbers = Stream.of(evens, odds, primes) 
+				.flatMap(list -> list.stream()) 
+				.collect(Collectors.toList()); 
+		System.out.println("flattend list: " + numbers);
+		
+		//The Stream.flatMap() function, as the name suggests, is the combination of a map and a flat operation. This means you first apply the map function and then flattens the result.
+		
+/*
+		Stream.map() vs Stream.flatMap() in Java 8
+		
+		1. The function you pass to the map() operation returns a single value.
+		2. The function you pass to flatMap() operation returns a Stream of value.
+		3. flatMap() is a combination of map and flat operation. 
+		4. map() is used for transformation only, but flatMap() is used for both transformation and flattening. 
+
+*/
 	}
 
 }

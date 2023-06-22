@@ -23,7 +23,7 @@ public class StreamPartitioningExample {
 		Map<Boolean, Set<Student>> partitioningMap = StudentDataBase.getStudentDetails().stream()
 				.collect(Collectors.partitioningBy(gpaPredicate, Collectors.toSet())); // Giving second argument type of
 																						// collect like Set
-		System.out.println("Partitioning By with one argument : " + partitioningMap);
+		System.out.println("Partitioning By with two arguments : " + partitioningMap);
 	}
 
 	public static void main(String[] args) {
