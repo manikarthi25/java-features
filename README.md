@@ -17,20 +17,20 @@ The below-listed 14 JEPs are part of Java 18.
 # Java 17 Features (LTS)
 Java 17 was released on September 14, 2021. Java 17 is an LTS (Long Term Support) release, like Java 11 and Java 8. Spring 6 and Spring boot 3 will have first-class support for Java 17. So it is a good idea to plan for upgrading to Java 17.
 The below-listed 14 JEPs are part of Java 17.
-	1.	(JEP-306) Restore Always-Strict Floating-Point Semantics
-	2.	(JEP-356) Enhanced Pseudo-Random Number Generators
-	3.	(JEP-382) New macOS Rendering Pipeline
-	4.	(JEP-391) macOS/AArch64 Port
-	5.	(JEP-398) Deprecate the Applet API for Removal
-	6.	(JEP-403) Strongly Encapsulate JDK Internals
-	7.	(JEP-406) Pattern Matching for switch (Preview)
-	8.	(JEP-407) Remove RMI Activation
-	9.	(JEP-409) Sealed Classes
-	10.	(JEP-410) Remove the Experimental AOT and JIT Compiler
-	11.	(JEP-411) Deprecate the Security Manager for Removal
-	12.	(JEP-412) Foreign Function & Memory API (Incubator)
-	13.	(JEP-414) Vector API (Second Incubator)
-	14.	(JEP-415) Context-Specific Deserialization Filters
+1.	(JEP-306) Restore Always-Strict Floating-Point Semantics
+2.	(JEP-356) Enhanced Pseudo-Random Number Generators
+3.	(JEP-382) New macOS Rendering Pipeline
+4.	(JEP-391) macOS/AArch64 Port
+5.	(JEP-398) Deprecate the Applet API for Removal
+6.	(JEP-403) Strongly Encapsulate JDK Internals
+7.	(JEP-406) Pattern Matching for switch (Preview)
+8.	(JEP-407) Remove RMI Activation
+9.	(JEP-409) Sealed Classes
+10.	(JEP-410) Remove the Experimental AOT and JIT Compiler
+11.	(JEP-411) Deprecate the Security Manager for Removal
+12.	(JEP-412) Foreign Function & Memory API (Incubator)
+13.	(JEP-414) Vector API (Second Incubator)
+14.	(JEP-415) Context-Specific Deserialization Filters
 
 # Java 16 Features
 Java 16 was released on 16 March 20121. It was largely a maintenance release, except it made the Java Records and Pattern matching the standard features of the Java language.
