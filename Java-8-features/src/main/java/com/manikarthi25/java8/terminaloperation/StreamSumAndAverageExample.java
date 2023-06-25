@@ -23,3 +23,8 @@ public class StreamSumAndAverageExample {
 	}
 
 }
+
+/*
+Using Summing : 41
+Using Averaging : 6.833333333333333
+*/

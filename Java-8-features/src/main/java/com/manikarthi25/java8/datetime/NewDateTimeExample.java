@@ -20,3 +20,9 @@ public class NewDateTimeExample {
 	}
 
 }
+
+/*
+LocalDate : 2023-06-25
+LocalTime : 18:55:33.560576300
+LocalDateTime : 2023-06-25T18:55:33.560576300
+*/

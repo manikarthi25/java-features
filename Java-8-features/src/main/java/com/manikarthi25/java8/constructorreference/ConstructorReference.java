@@ -19,3 +19,6 @@ public class ConstructorReference {
 	}
 
 }
+
+//Student [name=null, gender=null, gradeLevel=0, gpa=0.0, activities=[], noteBooks=0, bike=Optional.empty]
+//Student [name=Mani, gender=null, gradeLevel=0, gpa=0.0, activities=[], noteBooks=0, bike=Optional.empty]

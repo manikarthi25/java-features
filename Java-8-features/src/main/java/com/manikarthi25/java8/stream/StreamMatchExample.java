@@ -30,3 +30,14 @@ public class StreamMatchExample {
 	}
 
 }
+
+/*
+ output
+ ----------
+allMatch : false
+
+anyMatch : true
+
+noneMatch : false
+
+*/

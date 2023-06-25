@@ -75,7 +75,13 @@ public class StreamFlatMapExample {
 				.collect(Collectors.toList()); 
 		System.out.println("flattend list: " + numbers);
 		
-		//The Stream.flatMap() function, as the name suggests, is the combination of a map and a flat operation. This means you first apply the map function and then flattens the result.
+		List<Integer> distinctNumbers = Stream.of(evens, odds, primes) 
+				.flatMap(list -> list.stream()).distinct() 
+				.collect(Collectors.toList()); 
+		System.out.println("flattend list: " + distinctNumbers);
+		
+		//The Stream.flatMap() function, as the name suggests, is the combination of a map and a flat operation. 
+		//This means you first apply the map function and then flattens the result.
 		
 /*
 		Stream.map() vs Stream.flatMap() in Java 8
@@ -89,3 +95,15 @@ public class StreamFlatMapExample {
 	}
 
 }
+
+/*
+output
+----------
+Without Distinct = [swimming, cricket, footbal, cricket, volleyball, cricket, basket, gymnastics, basket, dancing, kabadi, cricket]
+With Distinct = [swimming, cricket, footbal, volleyball, basket, gymnastics, dancing, kabadi]
+With Distinct and Sorted = [BASKET, CRICKET, DANCING, FOOTBAL, GYMNASTICS, KABADI, SWIMMING, VOLLEYBALL]
+With Distinct and Count = 8
+map : [1, 2, 3, 4]
+flattend list: [2, 4, 6, 3, 5, 7, 2, 3, 5, 7, 11]
+flattend list: [2, 4, 6, 3, 5, 7, 11]
+*/

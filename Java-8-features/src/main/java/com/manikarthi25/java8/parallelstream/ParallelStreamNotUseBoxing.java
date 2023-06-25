@@ -31,3 +31,10 @@ public class ParallelStreamNotUseBoxing {
 	}
 
 }
+
+/*
+Sequential - Sum Duration : 1ms
+Sequential - Sum : 500500
+parallel - Sum Duration : 4ms
+Parallel - Sum : 500500
+*/

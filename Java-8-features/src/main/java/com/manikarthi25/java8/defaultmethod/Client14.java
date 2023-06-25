@@ -16,3 +16,6 @@ public class Client14 implements Interface1, Interface4 {
 	}
 
 }
+
+
+//Interface1 :class com.manikarthi25.java8.defaultmethod.Client14

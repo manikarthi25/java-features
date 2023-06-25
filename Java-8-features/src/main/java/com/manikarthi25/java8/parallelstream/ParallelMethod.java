@@ -41,7 +41,7 @@ Method 1: Using parallel() method on a stream
 The parallel() method of the BaseStream interface returns an equivalent parallel stream. 
 Let us explain how it would work with the help of an example.
 
-In the code given below, we create a file object which points to a pre-existent ‘txt’ file in the system.
+In the code given, we create a file object which points to a pre-existent ‘txt’ file in the system.
 Then we create a Stream that reads from the text file one line at a time. 
 Then we use the parallel() method to print the read file on the console. 
 The order of execution is different for each run, you can observe this in the output. 
@@ -51,3 +51,12 @@ The two outputs given below have different orders of execution.
 	}
 
 }
+
+/*
+Kiruthika
+Mohith
+Manikandan
+Mahith
+Surya
+Praisewin
+*/

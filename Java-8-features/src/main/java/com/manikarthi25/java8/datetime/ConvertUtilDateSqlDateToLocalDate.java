@@ -32,3 +32,11 @@ public class ConvertUtilDateSqlDateToLocalDate {
 	}
 
 }
+
+/*
+java.util.Date                      :Sun Jun 25 18:53:49 IST 2023
+Convert from util.date to LocalDate :2023-06-25
+Convert from LocalDate to util.date :Sun Jun 25 18:53:49 IST 2023
+Convert LocalDate to sql.date       :2023-06-25
+Convert sql.date to localdate       :2023-06-25
+*/

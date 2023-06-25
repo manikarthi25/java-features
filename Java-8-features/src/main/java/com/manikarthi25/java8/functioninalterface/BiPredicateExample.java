@@ -37,3 +37,10 @@ public class BiPredicateExample {
 	}
 
 }
+
+/*
+mani : [swimming, cricket]
+karthika : [footbal, cricket]
+praise : [volleyball, cricket]
+karthi : [basket, gymnastics]
+*/

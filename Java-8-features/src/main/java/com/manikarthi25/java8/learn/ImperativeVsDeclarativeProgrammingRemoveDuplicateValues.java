@@ -32,3 +32,8 @@ public class ImperativeVsDeclarativeProgrammingRemoveDuplicateValues {
 	}
 
 }
+
+/*
+Imperative - Unique List : [1, 2, 3, 4, 5, 9]
+Imperative - Unique List : [1, 2, 3, 4, 5, 9]
+*/

@@ -34,3 +34,10 @@ public class PredicateAndConsumerExample {
 	}
 
 }
+
+/*
+mani : [swimming, cricket]
+karthika : [footbal, cricket]
+praise : [volleyball, cricket]
+karthi : [basket, gymnastics]
+*/

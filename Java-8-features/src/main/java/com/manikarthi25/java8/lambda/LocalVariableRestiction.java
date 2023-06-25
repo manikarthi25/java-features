@@ -10,7 +10,8 @@ public class LocalVariableRestiction {
 		
 		//int i = 0;
 		
-		/*Consumer<Integer> c1 = (i) -> { // Lambda expression's parameter i cannot redeclare another local variable defined in an enclosing scope.
+		/*Consumer<Integer> c1 = (i) -> { // Lambda expression's parameter i cannot redeclare another local variable defined 
+		                                  //in an enclosing scope.
 			System.out.println(i);
 		};
 		

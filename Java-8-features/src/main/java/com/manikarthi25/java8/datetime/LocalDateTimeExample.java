@@ -37,3 +37,17 @@ public class LocalDateTimeExample {
 	}
 
 }
+
+/*
+localDateTimeNow : 2023-06-25T18:54:34.753598400
+localDateTimeNow : 2020-05-20T11:45:45
+getDayOfMonth :25
+54
+2023
+2023-07-05T18:54:34.753598400
+2023-06-26T06:54:34.753598400
+isAfter :true
+isBefore : false
+isEqual :false
+isSupported : true
+*/

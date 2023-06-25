@@ -22,8 +22,12 @@ public class StreamMinByMaxByExample {
 	public static void main(String[] args) {
 		
 		System.out.println("Min By - Student :" + minByExample());
-		System.out.println("Mzx By - Student :" + maxByExample());
+		System.out.println("Max By - Student :" + maxByExample());
 		
 	}
 
 }
+/*
+Min By - Student :Optional[Student [name=kannan, gender=male, gradeLevel=4, gpa=4.9, activities=[basket, dancing], noteBooks=2, bike=Optional.empty]]
+Max By - Student :Optional[Student [name=mani, gender=male, gradeLevel=2, gpa=9.9, activities=[swimming, cricket], noteBooks=10, bike=Optional.empty]]
+*/

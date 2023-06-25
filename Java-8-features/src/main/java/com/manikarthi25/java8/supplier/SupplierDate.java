@@ -13,6 +13,9 @@ public class SupplierDate {
 
 	public static void main(String[] args) {
 
+		//In Java, a supplier is a functional interface from the Java.util.function package 
+		//that represents a supplier of results. It does not take any arguments and returns a value of the specified type. 
+		//The functional interface defines a single abstract method called “get ()” that returns a result1
 		Supplier<LocalDateTime> s = () -> LocalDateTime.now();
 		LocalDateTime time = s.get();
 

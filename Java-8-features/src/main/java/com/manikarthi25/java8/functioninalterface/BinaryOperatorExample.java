@@ -17,3 +17,8 @@ public class BinaryOperatorExample {
 	}
 
 }
+
+/*
+Result of maxBy is : 10
+Result of minBy is : 5
+*/

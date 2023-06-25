@@ -30,8 +30,21 @@ public class SteamVsCollections {
 		
 		System.out.println("Internal Iteration in Collection");
 		nameStream.forEach(name -> System.out.println(name)); //Internal Iteration in Stream
-		
 
 	}
-
 }
+
+/*
+ output
+ ----------
+ Name List : [Mani, praise, raj]
+After remove - Name List :[Mani, praise]
+After Modify Name List : [Mani, Karthi]
+Karthi
+External Iteration in Collection
+Mani
+Karthi
+Internal Iteration in Collection
+Mani
+Karthi
+*/

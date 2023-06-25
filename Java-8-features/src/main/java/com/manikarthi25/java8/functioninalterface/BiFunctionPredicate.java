@@ -27,3 +27,6 @@ public class BiFunctionPredicate {
 	}
 
 }
+
+
+//{karthika=9.4, karthi=6.2, mani=9.9, praise=6.9}

@@ -14,3 +14,10 @@ public class MultiplierClient {
 		System.out.println("static method - list size is :" + Multiplier.isEmpty(integerList));}
 
 }
+
+/*
+Multiply result is :20
+Inside interface
+Default method - list size is :3
+static method - list size is :true
+*/

@@ -44,3 +44,12 @@ public class StreamFindAnyAndFindFirstExample {
 	}
 
 }
+/*
+ Output
+ ---------
+findAnyStudent
+Find Any Student : Student [name=praise, gender=female, gradeLevel=3, gpa=6.9, activities=[volleyball, cricket], noteBooks=4, bike=Optional.empty]
+
+findFirstStudent
+Find First Student : Student [name=praise, gender=female, gradeLevel=3, gpa=6.9, activities=[volleyball, cricket], noteBooks=4, bike=Optional.empty]
+*/

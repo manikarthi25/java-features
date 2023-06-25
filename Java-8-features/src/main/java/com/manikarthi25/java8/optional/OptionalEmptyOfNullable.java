@@ -29,3 +29,9 @@ public class OptionalEmptyOfNullable {
 	}
 
 }
+
+/*
+Of Nullable : Optional[Hello]
+Of Nullable : Optional[Hello]
+Of Nullable : Optional.empty
+*/

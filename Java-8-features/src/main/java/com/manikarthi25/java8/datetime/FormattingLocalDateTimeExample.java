@@ -51,3 +51,12 @@ public class FormattingLocalDateTimeExample {
 	}
 
 }
+
+/*
+Convert LocalDateTime from String                     :2020-10-03T12:23:50
+Convert LocalDateTime from String - ISO_LOCAL_DATE_TIME :2020-10-03T12:23:50
+Convert LocalDateTime from String - Customized :2020-10-03T12:23:50
+
+Convert String from LocalDateTime                  :2023|06|25T18:45:23
+Convert String from LocalDateTime                  :2023|06|25abc18:45:23
+*/

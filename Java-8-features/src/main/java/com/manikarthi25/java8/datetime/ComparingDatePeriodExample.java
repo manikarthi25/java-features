@@ -28,3 +28,14 @@ public class ComparingDatePeriodExample {
 	}
 
 }
+
+/*
+ output
+ -------
+getYears : 0
+getMonths : 11
+getDays : 30
+ofYears - getYears : 10
+ofDays - ofDays : 10
+Period : 0:11:30
+ */

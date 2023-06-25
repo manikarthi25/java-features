@@ -43,3 +43,16 @@ public class PredicateExample {
 	}
 
 }
+
+/*
+true
+
+true
+false
+
+true
+false
+
+false
+true
+*/

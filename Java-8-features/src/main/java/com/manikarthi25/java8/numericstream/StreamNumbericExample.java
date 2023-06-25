@@ -25,3 +25,9 @@ public class StreamNumbericExample {
 	}
 
 }
+
+/*
+Sum of N numbers :15
+
+sum Of N Number Using IntStream : 15
+*/

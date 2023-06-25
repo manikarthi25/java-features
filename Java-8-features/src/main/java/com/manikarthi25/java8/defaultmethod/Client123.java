@@ -14,3 +14,9 @@ public class Client123 implements Interface1, Interface2, Interface3 {
 	}
 
 }
+
+/*
+Interface1 :interface com.manikarthi25.java8.defaultmethod.Interface2
+Interface2 : interface com.manikarthi25.java8.defaultmethod.Interface2
+Interface3
+*/

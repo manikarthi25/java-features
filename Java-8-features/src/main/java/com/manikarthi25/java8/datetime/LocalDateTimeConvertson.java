@@ -37,3 +37,11 @@ public class LocalDateTimeConvertson {
 	}
 
 }
+
+/*
+Combine LocalDate + LocalTime -> LocalDateTime : 2023-06-25T18:51:50.194321100
+convert From LocalDate : 2023-06-25T12:35
+convert From LocalTime : 2023-06-25T18:51:50.194321100
+Get LocalDate from LocalDateTime : 2023-06-25
+Get LocalTime from LocalDateTime : 18:51:50.194321100
+*/
