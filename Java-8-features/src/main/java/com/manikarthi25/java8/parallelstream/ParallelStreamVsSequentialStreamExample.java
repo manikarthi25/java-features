@@ -44,3 +44,93 @@ public class ParallelStreamVsSequentialStreamExample {
 	}
 
 }
+
+/*
+Available Processor in this system : 8
+sumSequentialStream Time:10
+sumSequentialStream :1784293664
+sumSequentialStream Time:4
+sumSequentialStream :1784293664
+sumSequentialStream Time:1
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:1
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:1
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:1
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:1
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:1
+sumSequentialStream :1784293664
+sumSequentialStream Time:0
+sumSequentialStream :1784293664
+sumSequentialStream Time:1
+sumSequentialStream :1784293664
+Sequential : 22ms
+sumParallelStream Time:4
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:1
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:1
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:1
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:1
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+sumParallelStream Time:1
+sumParallelStream :1784293664
+sumParallelStream Time:0
+sumParallelStream :1784293664
+Parallel : 9ms
+*/

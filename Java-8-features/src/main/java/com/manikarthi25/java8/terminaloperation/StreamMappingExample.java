@@ -18,3 +18,5 @@ public class StreamMappingExample {
 	}
 
 }
+
+//[mani, karthika, praise, karthi, kannan, raji]

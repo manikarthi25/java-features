@@ -24,9 +24,27 @@ public class SreamOfIterateGenerateExample {
 		Stream.generate(integerSupplier)
 			.limit(3)
 			.forEach(System.out::println);
-		
-		
 
 	}
 
 }
+
+/*
+ output
+ -------
+mani
+karthi
+kiruthi
+praise
+
+1
+2
+4
+8
+16
+
+973349619
+1797540138
+-531179465
+
+*/

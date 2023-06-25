@@ -14,3 +14,5 @@ public class UnaryOperatorExample {
 	}
 
 }
+
+//Javadefault

@@ -39,7 +39,6 @@ public class StreamLimitSkipExample {
 		
 		System.out.println();
 		System.out.println("Skip Operation");
-		System.out.println("Limit Operation");
 		Optional<Integer> skipResult = skip(integerList);
 		if (skipResult.isPresent()) {
 			System.out.println("Skip - Result is :" + skipResult.get());
@@ -50,3 +49,13 @@ public class StreamLimitSkipExample {
 	}
 
 }
+
+/*
+ Output
+ ------
+Limit Operation
+Limit - Result is : 6
+
+Skip Operation
+Skip - Result is :9
+ */

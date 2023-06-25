@@ -32,3 +32,11 @@ public class StreamNumbericBoxingAndUnboxing {
 	}
 
 }
+
+/*
+Boxing - Convert primitive type to wrapper type
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+UnBoxing - Convert Wrapper type to primitive type
+55
+*/

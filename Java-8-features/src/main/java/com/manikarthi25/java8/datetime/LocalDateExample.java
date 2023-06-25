@@ -57,3 +57,29 @@ public class LocalDateExample {
 	}
 
 }
+
+/*
+System Current Date : 2023-06-25
+localDate.of : 2020-10-04
+getMonth : JUNE
+getMonthValue : 6
+getDayOfYear : 176
+getDayOfMonth : 25
+getDayOfWeek : SUNDAY
+getYear : 2023
+get(ChronoField.DAY_OfyF_WEEK) : 7
+plusDays :2023-06-30
+plusDays :2023-11-25
+minusDays :2023-06-22
+localDate.with(ChronoField.DAY_OF_WEEK : 2023-06-24
+localDate.with(ChronoField.YEAR :2020-06-25
+localDate.with(TemporalAdjusters.firstDayOfNextMonth() : 2023-07-01
+localDate :2023-06-25
+localDate1 :2020-10-04 
+isEqual : false
+isBefore : false
+isAfter : true
+isLeapYear : false
+Is support ChronoUnit.MINUTES method :false
+Is support ChronoUnit.MINUTES method :true
+*/

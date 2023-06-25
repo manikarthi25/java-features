@@ -27,9 +27,18 @@ The parallelStream() method of the Collection interface returns a possible paral
 
 Implementation:
 
-In the code given below, we are again using parallel streams but
+In the code given, we are again using parallel streams but
 here we are using a List to read from the text file. Therefore, we need the parallelStream() method.
  */
 	}
 
 }
+
+/*
+Kiruthika
+Mohith
+Mahith
+Manikandan
+Praisewin
+Surya
+*/

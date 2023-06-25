@@ -41,3 +41,10 @@ public class ParallelStreamExample {
 	}
 
 }
+
+/*
+Sequential stream : 14ms
+Sequential Stream : Activites : [basket, cricket, dancing, footbal, gymnastics, kabadi, swimming, volleyball]
+Parallel stream : 10ms
+Parallel Stream : Activites : [basket, cricket, dancing, footbal, gymnastics, kabadi, swimming, volleyball]
+*/

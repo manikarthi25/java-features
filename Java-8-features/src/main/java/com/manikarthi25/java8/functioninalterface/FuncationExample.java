@@ -17,3 +17,9 @@ public class FuncationExample {
 	}
 
 }
+
+/*
+JAVA8
+JAVA8default
+JAVA8DEFAULT
+*/

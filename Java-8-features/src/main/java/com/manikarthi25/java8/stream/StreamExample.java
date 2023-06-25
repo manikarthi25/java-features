@@ -17,7 +17,7 @@ public class StreamExample {
 				.filter(student -> student.getGradeLevel() >= 3).filter(student -> student.getGpa() >= 6)
 				.collect(Collectors.toMap(Student::getName, Student::getActivities));
 
-		System.out.println("without predicate : " + studentMapWithoutPredicate);
+		System.out.println("Without predicate : " + studentMapWithoutPredicate);
 
 		// with predicate
 		Predicate<Student> predicateGradeLevel = (student) -> student.getGradeLevel() >= 3;
@@ -33,3 +33,10 @@ public class StreamExample {
 	}
 
 }
+
+/*
+ Output
+ ------
+Without predicate : {karthi=[basket, gymnastics], praise=[volleyball, cricket]}
+With Predicate : {karthi=[basket, gymnastics], praise=[volleyball, cricket]}
+*/

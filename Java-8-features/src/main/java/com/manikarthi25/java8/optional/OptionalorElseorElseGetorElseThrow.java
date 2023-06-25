@@ -37,3 +37,9 @@ public class OptionalorElseorElseGetorElseThrow {
 	}
 
 }
+
+/*
+orElse : default
+orElseGet : mani
+orElseThrow : mani
+*/

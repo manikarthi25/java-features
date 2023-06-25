@@ -15,7 +15,7 @@ public class FactoryMethodInMap {
 
 
 /*
-In Java 9, Map includes Map.of() and Map.ofEntries() static factory methods that provide a convenient way to creae immutable maps.
+In Java 9, Map includes Map.of() and Map.ofEntries() static factory methods that provide a convenient way to create immutable maps.
 Map created by these methods has the following characteristics.
 
 It is immutable
@@ -31,5 +31,4 @@ output
 101 JavaFX
 103 Spring MVC
 102 Hibernate
-
 */

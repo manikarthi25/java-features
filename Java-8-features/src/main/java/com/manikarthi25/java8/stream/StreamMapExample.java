@@ -16,7 +16,7 @@ public class StreamMapExample {
 		List<String> nameList = StudentDataBase.getStudentDetails().stream() // Stream<Student>
 				// Convert from Stream<Student> to Stream<String>
 				.map(Student::getName) // Stream<String>
-				.map(String::toUpperCase) // Perform Uppercase operation - <tream<String>
+				.map(String::toUpperCase) // Perform Uppercase operation - Stream<String>
 				.collect(Collectors.toList()); // List<String>
 
 		return nameList;
@@ -27,7 +27,7 @@ public class StreamMapExample {
 		Set<String> nameList = StudentDataBase.getStudentDetails().stream() // Stream<Student>
 				// Convert from Stream<Student> to Stream<String>
 				.map(Student::getName) // Stream<String>
-				.map(String::toUpperCase) // Perform Uppercase operation - <tream<String>
+				.map(String::toUpperCase) // Perform Uppercase operation - Stream<String>
 				.collect(Collectors.toSet()); // Set<String>
 
 		return nameList;
@@ -42,3 +42,12 @@ public class StreamMapExample {
 	}
 
 }
+
+/*
+ output
+ ------
+List of student names : [MANI, KARTHIKA, PRAISE, KARTHI, KANNAN, RAJI]
+
+Set of student names : [KARTHIKA, KANNAN, RAJI, PRAISE, MANI, KARTHI]
+
+*/

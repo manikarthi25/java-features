@@ -34,3 +34,9 @@ public class StreamJoiningExample {
 	}
 
 }
+
+/*
+Joining_1 : manikarthikapraisekarthikannanraji
+Joining_2 : mani-karthika-praise-karthi-kannan-raji
+Joining_3 : (mani-karthika-praise-karthi-kannan-raji)
+*/

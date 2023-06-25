@@ -1,4 +1,4 @@
-package Map;
+package com.manikarthi25.java9.factorymethods;
 
 import java.util.Map;
 

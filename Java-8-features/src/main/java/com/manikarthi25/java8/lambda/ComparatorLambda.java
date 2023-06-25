@@ -22,3 +22,7 @@ public class ComparatorLambda {
 	}
 
 }
+
+
+//Without lambda : 1
+//With lambda : 1

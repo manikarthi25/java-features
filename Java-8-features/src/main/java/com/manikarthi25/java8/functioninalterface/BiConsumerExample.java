@@ -19,3 +19,12 @@ public class BiConsumerExample {
 	}
 
 }
+
+/*
+mani : [swimming, cricket]
+karthika : [footbal, cricket]
+praise : [volleyball, cricket]
+karthi : [basket, gymnastics]
+kannan : [basket, dancing]
+raji : [kabadi, cricket]
+*/

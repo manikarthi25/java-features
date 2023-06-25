@@ -24,3 +24,8 @@ public class ImperativeVsDeclarativeProgrammingSummation {
 		System.out.println("Declarative : " + sum1);
 	}
 }
+
+/*
+Imperative : 5050
+Declarative : 5050
+*/

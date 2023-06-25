@@ -28,3 +28,12 @@ public class ConvertLocalDateTimeToZonedDateTime {
 	}
 
 }
+/*
+ output
+ ---------
+localDateTime with out zone  :2023-06-25T18:39:30.359144
+localDateTime with zone      :2023-06-25T18:39:30.359144-05:00[America/Chicago]
+Instant with zone            :2023-06-25T08:09:30.366736-05:00[America/Chicago]
+Add offset with LocalDateTime :2023-06-25T18:39:30.366736-06:00
+
+*/

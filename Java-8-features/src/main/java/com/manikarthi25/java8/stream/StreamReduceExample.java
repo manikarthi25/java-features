@@ -33,7 +33,12 @@ public class StreamReduceExample {
 
 	public static Optional<Student> getHighestGpaStudent() {
 		return StudentDataBase.getStudentDetails().stream()
-				.reduce((student1, student2) -> student1.getGpa() > student2.getGpa() ? student1 : student1);
+				.reduce((student1, student2) -> student1.getGpa() > student2.getGpa() ? student1 : student2);
+	}
+	
+	public static Optional<Student> getLowestGpaStudent() {
+		return StudentDataBase.getStudentDetails().stream()
+				.reduce((student1, student2) -> student1.getGpa() < student2.getGpa() ? student1 : student2);
 	}
 
 	public static void main(String[] args) {
@@ -59,7 +64,29 @@ public class StreamReduceExample {
 		if (studentOptional.isPresent()) {
 			System.out.println("Highest GPA Student Details : " + studentOptional.get());
 		}
+		
+		System.out.println();
+		Optional<Student> studentOptiona2 = getLowestGpaStudent();
+		if (studentOptiona2.isPresent()) {
+			System.out.println("Lowest GPA Student Details : " + studentOptiona2.get());
+		}
 
 	}
-
 }
+
+/*
+ output
+ ------
+Multiplication with init value: 15
+
+Multiplication without init value: 15
+Check value is there or not : true
+
+Check value is there or not : false
+
+Highest GPA Student Details : Student [name=mani, gender=male, gradeLevel=2, gpa=9.9, activities=[swimming, cricket], noteBooks=10, bike=Optional.empty]
+
+Lowest GPA Student Details : Student [name=kannan, gender=male, gradeLevel=4, gpa=4.9, activities=[basket, dancing], noteBooks=2, bike=Optional.empty]
+
+
+ */

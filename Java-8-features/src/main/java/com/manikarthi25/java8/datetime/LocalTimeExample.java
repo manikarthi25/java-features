@@ -37,3 +37,18 @@ public class LocalTimeExample {
 	}
 
 }
+
+/*
+localTime using LocalTime.now : 18:55:12.635304600
+localTime using LocalTime.of : 12:22
+getHour : 18
+getMinute : 55
+get(ChronoField.MINUTE_OF_DAY : 1135
+plusHours : 06:55:12.635304600
+minusMinutes : 18:10:12.635304600
+localTimeNow :18:55:12.635304600
+localTimeOf :12:22
+isAfter : true
+isBefore : false
+isSupported : true
+*/

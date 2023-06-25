@@ -43,3 +43,10 @@ public class OptionalComparisonExample {
 	}
 
 }
+
+/*
+Without optional
+Length of the string :4
+With optional
+Length of the string :4
+*/

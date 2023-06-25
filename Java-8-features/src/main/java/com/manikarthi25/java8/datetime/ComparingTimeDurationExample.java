@@ -25,8 +25,15 @@ public class ComparingTimeDurationExample {
 		Duration durationHours = Duration.ofHours(10);
 		System.out.println("durationHours :" + durationHours.toHours());
 		
-		
-
 	}
 
 }
+
+/*
+ output
+ ---------
+Difference between localTime2 and localTime1 in minutes: 11
+Difference between localTime2 and localTime1 in minutes: 660
+Duration is :11:660
+durationHours :10
+*/

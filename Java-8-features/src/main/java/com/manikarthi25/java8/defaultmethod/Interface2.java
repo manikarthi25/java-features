@@ -7,7 +7,7 @@ public interface Interface2 extends Interface1 {
 	}
 	
 	default void displayA() {
-		System.out.println("Interface1 :" + Interface2.class);
+		System.out.println("Interface1 : " + Interface2.class);
 	}
 
 }

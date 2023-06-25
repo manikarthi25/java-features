@@ -52,3 +52,12 @@ public class StreamMinMaxValueExample {
 	}
 
 }
+
+/*
+Optional Value is : Optional[5]
+Max Value is : 5
+Optional Value is : Optional.empty
+List is Empty
+Optional Value is : Optional[1]
+Min Value is : 1
+*/

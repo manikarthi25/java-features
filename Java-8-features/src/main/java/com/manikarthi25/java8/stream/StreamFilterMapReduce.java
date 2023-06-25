@@ -19,3 +19,5 @@ public class StreamFilterMapReduce {
 	}
 
 }
+
+//Summation of note Books : 15

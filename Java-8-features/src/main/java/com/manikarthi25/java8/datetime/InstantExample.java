@@ -24,3 +24,10 @@ public class InstantExample {
 	}
 
 }
+
+/*
+instant1 : 2023-06-25T13:16:36.588804200Z
+getEpochSecond :1687698996
+ofEpochSecond : 1970-01-01T00:00:00Z
+Difference between Instant1 and Instant2 in  nanoSeconds :9998900
+*/
