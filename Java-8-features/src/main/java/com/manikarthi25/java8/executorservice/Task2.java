@@ -8,7 +8,7 @@ public class Task2 implements Runnable {
 		for(int i=10; i<=19; i++) {
 			System.out.print(i + " ");
 		}
-		System.out.println("\nTask1 Done ");
+		System.out.println("\nTask2 Done ");
 		
 	}
 }
