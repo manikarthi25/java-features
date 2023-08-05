@@ -22,7 +22,11 @@ public class GetDuplicateElements {
 				map.put(e, e);
 			}
 		});
+
 		System.out.print(duplicateValues);
 	}
 
 }
+
+
+//[6, 5]

@@ -1,4 +1,4 @@
-package com.manikarthi25;
+package com.manikarthi25.programs;
 
 public class StringTest {
 	public static void main(String[] args) {
