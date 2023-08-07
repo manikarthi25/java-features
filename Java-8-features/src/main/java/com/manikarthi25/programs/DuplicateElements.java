@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class DuplicateElements {
 
@@ -16,6 +17,9 @@ public class DuplicateElements {
 		// display distinct value
 		System.out.println("Distinct Value from List:");
 		list.stream().filter(s -> distinctValue.add(s)).forEach(System.out::println);
+		
+		Set<Integer> s1 = list.stream().collect(Collectors.toSet());
+		System.out.println("Using Collect :" +s1);
 
 		// display duplicate value
 		System.out.println("Duplicate Value from List:");
@@ -35,6 +39,8 @@ Distinct Value from List:
 6
 7
 8
+
+Using Collect :[1, 2, 3, 4, 5, 6, 7, 8]
 
 Duplicate Value from List:
 5

@@ -11,7 +11,7 @@ public class DuplicateStrings {
 
 	public static void main(String[] args) {
 		
-		 List<String> names = Arrays.asList("AA", "BB", "AA", "CC");
+		 List<String> names = Arrays.asList("AA", "BB", "AA", "CC", "AA", "CC");
 	      Map<String,Long> namesCount = names
 	                                   .stream()
 	                       .filter(x->Collections.frequency(names, x)>1)
@@ -24,4 +24,4 @@ public class DuplicateStrings {
 
 
 //How to find only duplicate elements with its count from the String ArrayList in Java8?
-//{AA=2}
+//{CC=2, AA=3}
